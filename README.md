@@ -30,7 +30,7 @@ void loop() {
 
 Additional examples are included in the distribution and are available in the Arduino Examples section.
 
-Class methods
+API
 ================
 
 A servo is activated by creating an instance of the Servo class passing the desired pin to the attach() method. The servos are pulsed in the background using the value most recently written using the write() method
