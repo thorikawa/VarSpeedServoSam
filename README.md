@@ -1,7 +1,7 @@
 VarSpeedServoSam
 ===============
 
-The VarSpeedServoSam Arduino library is an adaptation of the [VarSpeedServo.h] library to work on boards with SAM processor such as Arduino Due. The original VarSpeedServo.h which is developed by @netlabtoolkit allows the use of up to 8 servos moving asynchronously (because it uses interrupts). In addition, you can set the speed of a move, optionally wait (block) until the servo move is complete, and create sequences of moves that run asynchronously.
+The VarSpeedServoSam Arduino library is an adaptation of the [VarSpeedServo.h](https://github.com/netlabtoolkit/VarSpeedServo) library to work on boards with SAM processor such as Arduino Due. The original VarSpeedServo.h which is developed by @netlabtoolkit allows the use of up to 8 servos moving asynchronously (because it uses interrupts). In addition, you can set the speed of a move, optionally wait (block) until the servo move is complete, and create sequences of moves that run asynchronously.
 
 * Supports up to 8 servos
 * Allows simultaneous, asynchronous movement of all servos
